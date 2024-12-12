@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#container {
+    width: 1000px;
+    height: 700px;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+}
+
+#object1, #object2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#object1 {
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+
+#object2 {
+    background-color: rgb(170, 255, 0);
+    top: 0;
+    left: 950px;
+}
+
+#ball {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    position: absolute;
+    border-radius: 50%;
+    top: 300px;
+    left: 500px;
+}
+
+#wyniki{
+    background-color: red;
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    display: flex;
+}
+
